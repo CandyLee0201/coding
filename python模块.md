@@ -32,6 +32,9 @@ time.strptime(string[,string])
 ##### date  
 
 ##### datetime  
+datetime是用于date和time的模块的合集，datetime的两个常量是MAXYEAR和MINYEAR，分别是9999和1。  
+datetime.time  
+表示日期的类，有三个参数，datetime.date(year,month,day)，返回值为year-month-day；  
 
 #### 文件名及文件路径  
 ##### os  
